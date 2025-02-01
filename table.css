@@ -1,0 +1,108 @@
+#myTable input {
+    margin-left: 5px;
+}
+
+#myTable {
+    border: 2px solid green;
+    border-collapse: collapse;
+    margin: 30px 30px 20px 40px;
+}
+
+#myTable td, th {
+    border: 1px solid green;
+    padding: 5px;
+}
+
+#myTable th {
+    color: #fff;
+    background-color: #a7c942;
+}
+
+/* Button Container Styles */
+.button-container {
+    margin: 20px 40px;
+    display: flex;
+    gap: 15px;
+}
+
+/* Submit Button Styles */
+#button {
+    color: #fff;
+    background-color: gray;
+    border-radius: 3px;
+    border: 2px solid gray;
+    padding: 8px 15px;
+    cursor: not-allowed;
+    transition: all 0.3s ease;
+}
+
+#button:enabled {
+    background-color: orange;
+    border-color: orange;
+    cursor: pointer;
+}
+
+/* Add New Student Button */
+#add {
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#add:hover {
+    background-color: #45a049;
+}
+
+/* Dynamically Added Buttons */
+.delete-btn, .edit-btn {
+    margin: 2px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.delete-btn {
+    background-color: #ff4444;
+    color: white;
+    border: 1px solid #cc0000;
+}
+
+.delete-btn:hover {
+    background-color: #cc0000;
+}
+
+.edit-btn {
+    background-color: #33b5e5;
+    color: white;
+    border: 1px solid #0099cc;
+}
+
+.edit-btn:hover {
+    background-color: #0099cc;
+}
+
+/* Dropdown Styles */
+.dropDownTextArea {
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
+/* Row Selection Styles */
+tr.selected {
+    background-color: yellow !important;
+}
+
+/* Arrow Image Styles */
+#myTable img {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#myTable img:hover {
+    transform: scale(1.1);
+}
